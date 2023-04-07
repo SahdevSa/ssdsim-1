@@ -165,7 +165,7 @@ struct ac_time_characteristics{
     int tRHW;      //RE high to WE low
     int tWHR;      //WE high to RE low
     int tRST;      //device resetting time
-}ac_timing;
+};
 
 
 struct ssd_info{ 
@@ -299,7 +299,7 @@ struct chip_info{
     unsigned long program_count;
     unsigned long erase_count;
 
-    struct ac_time_characteristics ac_timing;  
+    struct ac_time_characteristics ac_timing;
     struct die_info *die_head;
 };
 

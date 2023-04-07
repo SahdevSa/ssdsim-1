@@ -1,0 +1,8 @@
+
+
+request arriving time
+logical device no.
+logical sector no.
+request size
+access operator(read, write)
+
